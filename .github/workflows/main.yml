@@ -2,7 +2,7 @@ name: Keep Green
 
 on:
   schedule:
-    - cron: '* */8 * * *' # 每天 00:00 UTC 运行一次
+    - cron: '* * */5 * *' # 每天 00:00 UTC 运行一次
   workflow_dispatch: # 允许手动触发
 
 jobs:
